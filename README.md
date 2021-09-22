@@ -30,7 +30,9 @@ Example syntax:
 
 Argument | Description | Default
 --- | --- | ---
--p/--path | Path to the folder whose subfolders will be scanned | ./
+-p/--path | Path to the folder whose subfolders will be scanned | File selector
+
+Note: using relative path might break the GUI.
 
 When opening, the filemanager will appear if the argument wasn't used.
 
