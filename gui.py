@@ -37,7 +37,7 @@ class MainWindow:
     def folder_selector(self):
         path = get_args()
         if path:
-            return path
+            return os.path.realpath(path)
         else:
             return filedialog.askdirectory(parent=self.window)
 
